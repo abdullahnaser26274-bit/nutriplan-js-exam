@@ -1,0 +1,63 @@
+/* BTNS */
+.product-category-btn {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border: none;
+}
+.product-category-btn.snacks {
+    background: #d1fae5;
+    color: #047857;
+}
+.product-category-btn.snacks:hover {
+    background: #a7f3d0;
+}
+
+.product-category-btn.beverages,
+.product-category-btn.waters,
+.product-category-btn.sodas {
+    background: #dbeafe;
+    color: #1d4ed8;
+}
+.product-category-btn.beverages:hover,
+.product-category-btn.waters:hover,
+.product-category-btn.sodas:hover {
+    background: #bfdbfe;
+}
+.product-category-btn.breakfast-cereals,
+.product-category-btn.breads,
+.product-category-btn.biscuits {
+    background: #fef3c7;
+    color: #b45309;
+}
+.product-category-btn.breakfast-cereals:hover,
+.product-category-btn.breads:hover,
+.product-category-btn.biscuits:hover {
+    background: #fde68a;
+}
+.product-category-btn.desserts,
+.product-category-btn.chocolates,
+.product-category-btn.ice-creams {
+    background: #f3e8ff;
+    color: #7e22ce;
+}
+.product-category-btn.desserts:hover,
+.product-category-btn.chocolates:hover,
+.product-category-btn.ice-creams:hover {
+    background: #e9d5ff;
+}
+.product-category-btn.dairies,
+.product-category-btn.cheeses,
+.product-category-btn.yogurts {
+    background: #ffe4e6;
+    color: #be123c;
+}
+.product-category-btn.dairies:hover,
+.product-category-btn.cheeses:hover,
+.product-category-btn.yogurts:hover {
+    background: #fecdd3;
+}
